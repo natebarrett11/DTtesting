@@ -1,5 +1,3 @@
-<script src="https://github.com/Asana/node-asana/releases/download/v0.16.6/asana-min.js">
-
 var asana = require('asana');
 
 // replace with your personal access token. 
@@ -14,4 +12,3 @@ client.users.me()
     // Print out your information
     console.log('Hello world! ' + 'My name is ' + me.name + ' and my primary Asana workspace is ' + me.workspaces[0].name + '.');
 });
-</script>
